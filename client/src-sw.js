@@ -8,8 +8,10 @@ const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 precacheAndRoute(self.__WB_MANIFEST);
 
 const pageCache = new CacheFirst({
+  // Name of the cache storage.
   cacheName: 'page-cache',
   plugins: [
+  // This plugin will cache responses with these headers to a maximum-age of 200 days
     new CacheableResponsePlugin({
       statuses: [0, 200],
     }),
