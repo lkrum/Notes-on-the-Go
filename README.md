@@ -3,7 +3,7 @@
 
 ## Description
 
-Link to deployed app: 
+Link to deployed app: https://notes-on-the-go-app.herokuapp.com/
 
 ![Preview](./public/images//Tech%20Writers%20Unite.gif)
 
