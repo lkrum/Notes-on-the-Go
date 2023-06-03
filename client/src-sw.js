@@ -44,7 +44,7 @@ registerRoute(
   })
 );
 
-
+// TA tried to help me solve my service worker error by giving me her code but it didn't help for some reason
 
 // const { warmStrategyCache } = require('workbox-recipes');
 // const { CacheFirst, StaleWhileRevalidate } = require('workbox-strategies');
